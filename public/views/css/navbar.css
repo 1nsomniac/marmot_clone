@@ -1,0 +1,30 @@
+body {
+    background-color:cadetblue;
+    width: 100vw;
+    height: 100vh;
+}
+.logo {
+    height: 35px;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: dimgray;
+}
+
+.center-navbar-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: azure;
+    width: 500px;
+}
+
+.searchbox {
+    width: 120px;
+}
+
+li {
+    list-style: none;
+}
