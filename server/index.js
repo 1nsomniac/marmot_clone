@@ -23,7 +23,7 @@ db.get_all_mens_products(function (err, mens_products_styles) {
     console.log(mens_products_styles)
 })
 
-app.get('/', function(req, res) {
+app.get('/all-shirts', function(req, res) {
     console.log('GET sighting');
   db.get_all_mens_products(function (err, mens_products) {
     res.send(mens_products)

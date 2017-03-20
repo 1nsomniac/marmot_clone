@@ -8,7 +8,7 @@ angular.module('marmot').service('menSvc', function($http){
     this.getProductsTwo = function () {
         return $http({
             method: "GET",
-            url: 'http://localhost:3000/'
+            url: 'http://localhost:3000/all-shirts'
         })
     } 
     
