@@ -75,7 +75,7 @@ CREATE TABLE womens_products_specific
 );
 
 INSERT INTO womens_products_specific (id, general_key, color, xs_stock, s_stock, m_stock, l_stock, xl_stock, front_img, back_img, l_quarter_img, r_quarter_img)
-VALUES (1, 59810, 'Turtle Dove', 3070, 1,3,8,4,0, './');
+VALUES (1, 59810, 'Turtle Dove', 3070, 1,3,8,4,0, '../server/media/women/tops/shirts_and_pullovers/59810_3070');
 INSERT INTO womens_products_specific (id, general_key, color, xs_stock, s_stock, m_stock, l_stock, xl_stock, front_img, back_img, l_quarter_img, r_quarter_img)
 VALUES (2, 59810, 'Dark Charcoal', 1,4,9,7,0, 'http://s7d2.scene7.com/is/image/marmot/59810_1725_f?$dw-product$=', 'http://s7d2.scene7.com/is/image/marmot/59810_1725_b?$dw-product$=', 'http://s7d2.scene7.com/is/image/marmot/59810_1725_alt1?$dw-product$=', 'http://s7d2.scene7.com/is/image/marmot/59810_1725_alt2?$dw-product$=');
 INSERT INTO womens_products_specific (id, general_key, color, xs_stock, s_stock, m_stock, l_stock, xl_stock, front_img, back_img, l_quarter_img, r_quarter_img)

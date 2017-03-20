@@ -1,80 +1,79 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="marmot">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Marmot</title>
-    <link rel="stylesheet" href="views/css/equipment.css">
-    <link rel="stylesheet" href="views/css/home.css">
-    <link rel="stylesheet" href="views/css/men.css">
-    <link rel="stylesheet" href="views/css/navbar.css">
-    <link rel="stylesheet" href="views/css/reset.css">
-    <link rel="stylesheet" href="views/css/specials.css">
-    <link rel="stylesheet" href="views/css/women.css">
-    <link rel="stylesheet" href="views/css/kids.css">
-</head>
-<body>
-
-<div class = 'header-container'>
-<div class = 'language'>
-us
-</div>
-<div class = 'support'>
-support
-</div>
-
-<img src="./resources/svg-icon svg-icon-bag.svg" alt="Bag or cart icon.">
-
-<div class = 'banner'>
-    60% OFF SALE
-</div>
-
-<li>Inside Marmot</li>
-<li>Find Stores</li>
-<li>My Account</li>
-
-
-</div>
-
-<div class = 'navbar-container'>
-<a ui-sref="home">
-<img src="./resources/logo.svg" alt="Red Marmot logo. Links to homepage." class = 'logo'></a>
-<div class = 'center-navbar-container'>
-<li><a ui-sref="men"> MEN </a></li>
-<li><a ui-sref="women"> WOMEN </a></li>
-<li><a ui-sref="kids"> KIDS </a></li>
-<li><a ui-sref="equipment"> EQUIPMENT </a></li>
-<li><a ui-sref="specials"> SPECIALS </a></li>
-</div>
-
-<div class ='searchbox'>
-<input type=text></input>
-</div>
-</div>
-
-
-    hello 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Marmot</title>
+        <link rel="stylesheet" href="views/css/equipment.css">
+        <link rel="stylesheet" href="views/css/home.css">
+        <link rel="stylesheet" href="views/css/men.css">
+        <link rel="stylesheet" href="views/css/navbar.css">
+        <link rel="stylesheet" href="views/css/reset.css">
+        <link rel="stylesheet" href="views/css/specials.css">
+        <link rel="stylesheet" href="views/css/women.css">
+        <link rel="stylesheet" href="views/css/kids.css">
+    </head>
+    <body>
+        <div class='header-container'>
+            <div class= 'left-header'>
+            <img src="./resources/usa.png" alt="usa flag" class='us-flag'>
+            <div class='language'>US
+        </div>
+            <div class='support'>Support
+        </div>
+        </div>
+            <div class='banner'>60% OFF SALE
+        </div>
+        <div class = 'right-header'>
+            <li>Inside Marmot</li>
+            <li>Find Stores</li>
+            <li>My Account</li>
+            <img src="./resources/svg-icon svg-icon-bag.svg" alt="Bag or cart icon.">
+        </div>
+        </div>
+        <div class='navbar-container'>
+            <a ui-sref="home">
+                <img src="./resources/logo.svg" alt="Red Marmot logo. Links to homepage." class='logo'>
+            </a>
+            <div class='center-navbar-container'>
+                <a ui-sref="men">
+                    <li>MEN </li>
+                </a>
+                <a ui-sref="women">
+                    <li>WOMEN </li>
+                </a>
+                <a ui-sref="kids">
+                    <li>KIDS </li>
+                </a>
+                <a ui-sref="equipment">
+                    <li>EQUIPMENT </li>
+                </a>
+                <a ui-sref="specials">
+                    <li>SPECIALS </li>
+                </a>
+            </div>
+            <div class='searchbox'>
+                <input type=text></input>
+            </div>
+        </div>
+         
 <div ui-view></div>
-
-
-<!--<img src = "https://s7d2.scene7.com/is/image/marmot/s17-new-1600d?$dw-homehero$">-->
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
-    <script src = "./js/app.js"></script>
-    <script src = "./js/controllers/equipmentCtrl.js"></script>
-    <script src = "./js/controllers/homeCtrl.js"></script>
-    <script src = "./js/controllers/menCtrl.js"></script>
-    <script src = "./js/controllers/specialsCtrl.js"></script>
-    <script src = "./js/controllers/womenCtrl.js"></script>
-    <script src = "./js/controllers/kidsCtrl.js"></script>
-    <script src = "./js/services/equipmentSvc.js"></script>
-    <script src = "./js/services/homeSvc.js"></script>
-    <script src = "./js/services/menSvc.js"></script>
-    <script src = "./js/services/specialsSvc.js"></script>
-    <script src = "./js/services/womenSvc.js"></script>
-    <script src = "./js/services/kidsSvc.js"></script>
-</body>
+        <!--<img src = "https://s7d2.scene7.com/is/image/marmot/s17-new-1600d?$dw-homehero$">-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+        <script src="./js/app.js"></script>
+        <script src="./js/controllers/equipmentCtrl.js"></script>
+        <script src="./js/controllers/homeCtrl.js"></script>
+        <script src="./js/controllers/menCtrl.js"></script>
+        <script src="./js/controllers/specialsCtrl.js"></script>
+        <script src="./js/controllers/womenCtrl.js"></script>
+        <script src="./js/controllers/kidsCtrl.js"></script>
+        <script src="./js/services/equipmentSvc.js"></script>
+        <script src="./js/services/homeSvc.js"></script>
+        <script src="./js/services/menSvc.js"></script>
+        <script src="./js/services/specialsSvc.js"></script>
+        <script src="./js/services/womenSvc.js"></script>
+        <script src="./js/services/kidsSvc.js"></script>
+    </body>
 </html>
