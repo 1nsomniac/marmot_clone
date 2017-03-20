@@ -1,0 +1,25 @@
+{
+  "name": "marmot_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1nsomniac/marmot_clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1nsomniac/marmot_clone/issues"
+  },
+  "homepage": "https://github.com/1nsomniac/marmot_clone#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "massive": "^2.6.0"
+  }
+}
